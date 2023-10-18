@@ -6,8 +6,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /* https://www.youtube.com/watch?v=qy8PxD3alWw&ab_channel=ColtSteele  => موقع شرح تقنية Express Ts
  */
 const express_1 = __importDefault(require("express"));
-const port = 8000;
-const app = (0, express_1.default)();
+// #region  {Global - var}
+const port = 8000, app = (0, express_1.default)(), server;
+// #endregion
+// @desc   Create ....
+// @route  get /
+// @access public
 app.get('/', (req, res) => {
     res.send(`
   HELLO FROM EXPRESS + TS! \n
@@ -15,10 +19,15 @@ app.get('/', (req, res) => {
   The project was Done by hussein Apdo..
   `);
 });
+// @desc   Create ....
+// @route  get /hi
+// @access public
 app.get('/hi', (req, res) => {
     res.send('Hi BomBa!!');
 });
-const server = app.listen(port, () => {
+// @desc   listen app
+// @access Private
+server = app.listen(port, () => {
     // console.log(server.address());
     console.log(`now listening on port ${port}`);
 });
