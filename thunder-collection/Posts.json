@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Posts",
+    "dateExported": "2024-01-18T04:47:42.903Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a02b9530-ac75-4b60-ab3b-9e469d9727c5",
+            "colId": "c46e2f2a-b6cf-4494-9806-43205f1448bb",
+            "containerId": "",
+            "name": "GET-SELECT All",
+            "url": "{{api}}/api/posts",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-01-16T08:22:19.234Z",
+            "modified": "2024-01-16T08:34:37.446Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "24cc55ff-5fa8-4370-b601-cdb665b42584",
+            "colId": "c46e2f2a-b6cf-4494-9806-43205f1448bb",
+            "containerId": "",
+            "name": "POST-INSERT",
+            "url": "{{api}}/api/posts",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-01-16T09:05:10.959Z",
+            "modified": "2024-01-16T09:06:37.261Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"post 11\",\n  \"body\":\"about post 11 looooooooooooooooo\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
