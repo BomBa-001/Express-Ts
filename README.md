@@ -1,3 +1,12 @@
-# Express-Ts
+## Setup
+#001
+git clone https://github.com/BomBa-001/003-ExpressTypeScript.git
 
-[Edit in Codeflow ⚡️](https://stackblitz.com/~/github.com/BomBa-001/Express-Ts)
+#002
+npm i
+
+#003
+npm dev --o
+## Development Server
+
+Start the development server on `http://localhost:9000`:
