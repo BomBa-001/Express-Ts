@@ -11,7 +11,7 @@
 <p align="center">
   <a href="#">
     <!-- ![](assets/img/cv-demo-01.gif) -->
-    <img src="./Folder.png" max-width="640px" max-height="360px" alt="NULL" />
+    <img src="https://repository-images.githubusercontent.com/341353251/b56fcd00-a54d-11eb-85c9-e35543ca1c87" max-width="640px" max-height="360px" alt="image ExpressJs & ExpressTS" />
   </a>
 </p>
 
@@ -80,16 +80,25 @@ http://localhost:9000
   box-shadow: inset 0px 0px 4px #fff;
   overflow: auto;
 " dir="rtl">
+التعريف:
+  Express.js هو إطار العمل البسيط والمرن المصمم لتطوير تطبيقات الويب باستخدام Node.js. يتيح Express.js للمطورين بناء تطبيقات قائمة على الخوادم بطريقة بسيطة ومرنة، ويوفر مجموعة من الميزات القوية لتبسيط العملية التطويرية.
+
+TypeScript (ts):
+  TypeScript هو توسع للJavaScript يضيف إليه التحكم الثابت في الأنواع. يمكن لهذا التوسع أن يعزز نوعية الكود ويساعد في اكتشاف الأخطاء أثناء عملية التطوير. يمكن ترجمة TypeScript إلى JavaScript، مما يجعله متوافقًا مع الكود الحالي المكتوب بلغة JavaScript ويسمح بالاستفادة من ميزات اللغة الحديثة.
+
+Express.ts:
+ يجمع بين هذين العنصرين (Express.js, TypeScript) ليقدم حلاً متقدمًا لتطوير تطبيقات الويب على الخادم، مع تحسين نوعية الكود وتسريع عملية التطوير.
 </pre>
 
-<!-- ## Author                            الإستخدام -->
+<!-- ## Author 👵                        المؤلف -->
 <!-- [Hussein Abdo](https://bomba-001.github.io/CV-Hussein/)
 <a href="https://bomba-001.github.io/CV-Hussein/" target="_blank">Hussein Abdo</a>
  -->
  
 <!-- ## Usage 💻                         الإستخدام -->
+<!-- ## Documentssation 📖               طريقة الإستخدم' -->
 <!-- ## Contributing 🤝                  المساهمة -->
-## License ©️                       <!-- الرخصة -->
+## License ©️                             <!-- الرخصة -->
 The License ([BOMBA](https://bomba-001.github.io/CV-BomBa-dir/))
 
 Copyright (c) 2016 [Hussein Abdo](https://bomba-001.github.io/CV-Hussein/)
