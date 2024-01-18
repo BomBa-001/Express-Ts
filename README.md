@@ -1,6 +1,6 @@
 ## Setup
 #001
-git clone https://github.com/BomBa-001/003-ExpressTypeScript.git
+git clone https://github.com/BomBa-001/Express-Ts.git
 
 #002
 npm i
